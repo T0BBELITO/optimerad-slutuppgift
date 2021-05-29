@@ -1,0 +1,1 @@
+var imageCounter=1;function changeImage(e){showDiv(imageCounter+=e)}function showDiv(e){var n,t=document.getElementsByClassName("mySlides");for(e>t.length&&(imageCounter=1),e<1&&(imageCounter=t.length),n=0;n<t.length;n++)t[n].style.display="none";t[imageCounter-1].style.display="block"}showDiv(imageCounter);
